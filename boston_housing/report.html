@@ -11957,7 +11957,9 @@ Standard deviation of prices: $165,171.13
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Increase in RM value will increse MEDV value. Increase in LSTAT value will decrease MEDV value. Increase in PTRATIO value will increase MEDV value.</p>
+<p>Increase in RM value will increse MEDV value. RM is the average number of rooms in the neighbourhood rooms. High RM means big houses. It is fair to consider that high RM will mean that the house in consideration will also have high number of rooms making it an expensive house.</p>
+<p>Increase in LSTAT value will decrease MEDV value. Increase in LSTAT depicts relatively poor neighbourhood. This will hamper the MEDV.</p>
+<p>Increase in PTRATIO value will decrease MEDV value. More the PTRATIO value, more number of students per teacher, lesser the quality of attention  provided by teacher. Hence, poorer the quality of the schools in the neighbourhood. Hence, lesser the price of the house.</p>
 
 </div>
 </div>
@@ -13824,6 +13826,10 @@ Q0lPRESixv8AMOU8A5LeitgAAAAASUVORK5CYII=
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The grid search technique is used in order to obtain the best performance of a model. The grid search technique allows us to find the most sutaible combination of the parameters to do that.</p>
 <p>For example, in a decision tree, we have three parameters, A(a1 and a2), B(b1 and b2), C(c1 and c2) (a1,a2,b1,b2,c1,c2 are the values of those parameters). Grid search will pick up the combination out of the permutations of six values of these three parameters.</p>
+<p>Grid search space is the the parameters that are considered for the combinations to be tested.</p>
+<p>The output of the grid search is the combinaions of the parameters that maximizes the performance of the algorithm in accordance with the predefined metric.</p>
+<p>The grid search is definitely an exhaustive search as it tests every possible combination of the parameters.</p>
+<p>The grid search performs combinations of parameters (hyperparameters). This combination is eveluated against a defined metric. The best performing combination is adopted by the model.</p>
 
 </div>
 </div>
